@@ -1,0 +1,41 @@
+[
+  {
+    "bType": "Dinghy",
+    "bSize": "Small",
+    "bBrand": "Optimist",
+    "bCapacity": 1000,
+    "bCondition": "Perfect"
+  },
+
+  {
+    "bType": "Sail",
+    "bSize": "Large",
+    "bBrand": "Beneteau",
+    "bCapacity": 12000,
+    "bCondition": "Slight Damage"
+  },
+
+  {
+    "bType": "Speed",
+    "bSize": "Medium",
+    "bBrand": "Bayliner",
+    "bCapacity": 2500,
+    "bCondition": "Perfect"
+  },
+
+  {
+    "bType": "Yacht",
+    "bSize": "Extra Large",
+    "bBrand": "Heesen",
+    "bCapacity": 40000,
+    "bCondition": "Slight Damage"
+  },
+
+  {
+    "bType": "Bass",
+    "bSize": "Small",
+    "bBrand": "Crestliner",
+    "bWeightCap": 1000,
+    "bCondition": "Perfect"
+  }
+]

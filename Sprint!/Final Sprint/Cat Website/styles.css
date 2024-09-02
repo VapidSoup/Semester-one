@@ -1,0 +1,297 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+h1 {
+  color: black;
+  margin-left: 15px;
+  margin-top: 2px;
+}
+
+h2 {
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200px;
+}
+
+h3 {
+  color: black;
+  margin-top: 7px;
+  margin-left: 7px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial;
+}
+
+body {
+  background-color: rgb(221, 220, 220);
+}
+
+.mainbox {
+  width: 1000px;
+  background-color: lightgrey;
+  padding: 15px;
+  border: 1px solid white;
+  margin: 20px;
+  text-align: left;
+  box-shadow: 20px;
+  border-bottom: 3px solid darkgrey;
+  border-right: 3px solid darkgrey;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+}
+
+.headerbox {
+  width: 952px;
+  height: 150px;
+  background-color: lightgrey;
+  border-bottom: 3px solid darkgrey;
+  border-right: 3px solid darkgrey;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  align-self: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial;
+  color: white;
+  padding-left: 1px;
+  margin-left: 1px;
+  box-shadow: 1px 1px 0 1px black;
+  -webkit-font-smoothing: none;
+}
+
+.bluebox {
+  width: 944px;
+  height: 25px;
+  background: linear-gradient(to right, blue, rgb(124, 124, 232));
+  color: white;
+  padding-left: 5px;
+  padding-top: 3px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial;
+  margin-bottom: 20px;
+}
+
+.xbox {
+  background-color: red;
+  margin-left: 2px;
+  margin-right: 3px;
+  width: 20px;
+  height: 20px;
+  border: 1px black solid;
+  border-radius: 2px;
+  text-align: center;
+  float: right;
+}
+
+.underscorebox {
+  background-color: lightgrey;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+  width: 20px;
+  height: 20px;
+  border: 1px black solid;
+  border-radius: 2px;
+  text-align: center;
+  float: right;
+  color: black;
+  font-weight: 700;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  background-color: lightgrey;
+  float: right;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 15px;
+  border-bottom: 3px solid darkgrey;
+  border-right: 3px solid darkgrey;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  box-shadow: 1px 1px 0 1px black;
+  font-weight: 700;
+}
+
+.navbox {
+  width: 325px;
+  height: 535px;
+  background-color: lightgray;
+  border: 1px solid white;
+  align-self: left;
+  margin-top: 5px;
+  margin-left: 1px;
+  border-bottom: 3px solid darkgrey;
+  border-right: 3px solid darkgrey;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  box-shadow: 1px 1px 0 1px black;
+  flex: 0 0 auto;
+}
+
+.navsub {
+  width: 300px;
+  height: 117px;
+  background-color: white;
+  border: 1px solid white;
+  align-self: left;
+  margin-top: 5px;
+  margin-left: 9px;
+  border-bottom: 3px solid rgb(233, 233, 233);
+  border-right: 3px solid rgb(233, 233, 233);
+  border-top: 3px solid darkgrey;
+  border-left: 3px solid darkgrey;
+}
+
+.navbutton {
+  width: 80px;
+  height: 23px;
+  background-color: lightgrey;
+  float: right;
+  cursor: pointer;
+  margin-top: 55px;
+  margin-right: 10px;
+  border-bottom: 3px solid darkgrey;
+  border-right: 3px solid darkgrey;
+  border-top: 3px solid rgb(228, 226, 226);
+  border-left: 3px solid rgb(228, 226, 226);
+  box-shadow: 1px 1px 0 1px black;
+  font-weight: 700;
+  flex: 1 1 auto;
+}
+
+.navbluebox {
+  width: 318px;
+  height: 25px;
+  background: linear-gradient(to right, blue, rgb(124, 124, 232));
+  color: white;
+  padding-left: 5px;
+  padding-top: 3px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial;
+  margin-bottom: 10px;
+}
+
+.navtext {
+  width: 204px;
+  height: 83px;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial;
+  flex: 0 0 auto;
+  border-top: 2px solid blue;
+}
+
+.mainarea {
+  width: 622px;
+  height: 537px;
+  background-color: white;
+  border-bottom: 3px solid rgb(233, 233, 233);
+  border-right: 3px solid rgb(233, 233, 233);
+  border-top: 3px solid darkgrey;
+  border-left: 3px solid darkgrey;
+  float: right;
+  margin-top: 5px;
+  margin-left: 7px;
+  flex: 1 1 auto;
+}
+
+.footerbox {
+  width: 952px;
+  height: 25px;
+  background: linear-gradient(to right, blue, rgb(124, 124, 232));
+  border-bottom: 3px solid darkgrey;
+  border-right: 3px solid darkgrey;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  align-self: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial;
+  color: white;
+  padding-left: 1px;
+  margin-left: 1px;
+  margin-top: 5px;
+  box-shadow: 1px 1px 0 1px black;
+  -webkit-font-smoothing: none;
+}
+
+.mainpicboxright {
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  float: right;
+}
+.mainpicboxleft {
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  float: left;
+  transform: scaleX(-1);
+}
+
+.centerpicbox {
+  width: 225px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+}
+
+.history-image {
+  max-width: 38%;
+  max-height: 28%;
+  display: block;
+}
+
+.history-text {
+  overflow: auto;
+  max-height: 400px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.mainarea2 {
+  width: 622px;
+  height: 537px;
+  background-color: white;
+  border-bottom: 3px solid rgb(233, 233, 233);
+  border-right: 3px solid rgb(233, 233, 233);
+  border-top: 3px solid darkgrey;
+  border-left: 3px solid darkgrey;
+  float: right;
+  margin-top: 5px;
+  margin-left: 7px;
+  padding: 15px;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+th {
+  border: 1px black solid;
+}
+
+tr {
+  border: 1px black solid;
+}

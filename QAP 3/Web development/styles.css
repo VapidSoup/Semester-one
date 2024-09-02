@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+nav a:link {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  color: white;
+  float: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: medium;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  float: left;
+}
+
+.MainBox {
+  width: 1000px;
+  background-color: white;
+}
+
+.GreyBar {
+  width: 1000px;
+  height: 35px;
+  background-color: grey;
+  color: white;
+  text-align: left;
+  padding: 7px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+  word-spacing: 0px;
+}
+
+.White {
+  color: white;
+}
+
+.Black {
+  color: black;
+}
+
+.PurpleBox {
+  width: 116px;
+  height: 135px;
+  background-color: rgb(241, 84, 17);
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  padding-top: 112px;
+  float: left;
+  margin: 1px;
+  text-align: left;
+}
+
+.WhiteBox {
+  width: 116px;
+  height: 135px;
+  background-color: white;
+  float: left;
+  margin: 1px;
+}
+
+.PicBoxCollage {
+  width: 116px;
+  height: 135px;
+  background-color: white;
+  float: left;
+  margin: 1px;
+}
+
+.CollageBox {
+  width: 1000px;
+  height: 508px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.GalleryMainBox {
+  width: 1000px;
+  height: 442px;
+}
+
+.GallerySubBoxTop {
+  width: 1000px;
+  height: 220px;
+  background-color: lightgrey;
+  padding-top: 10px;
+  float: left;
+  background-image: url(images/BGPT.jpg);
+  background-position: top;
+  background-size: 1000px 220px;
+}
+
+.GallerySubBoxBottom {
+  width: 1000px;
+  height: 220px;
+  background-color: lightgrey;
+  padding-top: 58px;
+  float: left;
+  background-image: url(images/BGPB.jpg);
+  background-position: bottom;
+  background-size: 1000px 220px;
+}
+
+.GalleryTextBox {
+  width: 230px;
+  height: 160px;
+  float: left;
+  margin-left: 5px;
+  padding: 5px;
+  text-align: left;
+}
+
+.GalleryPicBox {
+  width: 207px;
+  height: 159px;
+  float: left;
+  margin-left: 44px;
+  border: 2px solid lightgray;
+}
+
+.DecorationBox {
+  width: 80px;
+  height: 15px;
+  background: linear-gradient(to bottom, orangered, lightgrey);
+  float: right;
+}
+
+.Socialbox {
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  float: right;
+}

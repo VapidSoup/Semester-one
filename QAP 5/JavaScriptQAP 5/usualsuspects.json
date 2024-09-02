@@ -1,0 +1,41 @@
+[
+  {
+    "fname": "Fred",
+    "lname": "Fenster",
+    "height": "6 Foot 2 Inches",
+    "weight": "185lbs",
+    "position": "Lockpick"
+  },
+
+  {
+    "fname": "Todd",
+    "lname": "Hockney",
+    "height": "5 Foot 5 Inches",
+    "weight": "158lbs",
+    "position": "Demolitions"
+  },
+
+  {
+    "fname": "Michael",
+    "lname": "McManus",
+    "height": "5 Foot 10 Inches",
+    "weight": "170lbs",
+    "position": "Theif"
+  },
+
+  {
+    "fname": "Dean",
+    "lname": "Keaton",
+    "height": "6 Foot 0 Inches",
+    "weight": "177lbs",
+    "position": "Ringleader"
+  },
+
+  {
+    "fname": "Roger",
+    "lname": "Kint",
+    "height": "5 Foot 8 Inches",
+    "weight": "167lbs",
+    "position": "Con Artist"
+  }
+]
